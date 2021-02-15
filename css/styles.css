@@ -66,15 +66,33 @@ ul {
   list-style: none;
 }
 
+/* ===Header=== */
+
+.header-nav,
+.site-nav,
+.site-nav-contacts {
+  display: flex;
+}
+
+.header-nav {
+  justify-content: space-between;
+}
+
 /* Site nav */
 
-.site-nav .link {
+.site-nav .link,
+.site-nav-contacts {
   color: var(--tittle-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.site-nav-contacts .link:hover,
+.site-nav-contacts .link:focus {
+  color: #2196f3;
 }
 
 .site-nav .link:hover,
@@ -169,6 +187,11 @@ ul {
 
 .btn {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  -ms-flex-direction: row;
+  padding-top: 94px;
+  margin-bottom: 34px;
 }
 
 /* Кнопки фильтров */
