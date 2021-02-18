@@ -31,7 +31,7 @@ img {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -127,33 +127,44 @@ ul {
 }
 
 /* hero */
-
-.container .hero {
+.hero {
   background-color: #2f303a;
+}
+
+.hero .container {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-title {
-  margin-top: 0;
-  margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 
   letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 30px;
 }
 
 /* Кнопка заказать услугу */
 .hero-studio {
-  color: #ffffff;
-  background-color: #2196f3;
+  display: block;
+  margin-bottom: 200px;
+  padding: 10px 32px;
+
   font-weight: 700;
+  color: #ffffff;
   font-size: 16px;
-  line-height: 1.88;
-  text-decoration: none;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  border: none;
+  text-align: center;
 }
 
 /* Section  */
@@ -254,6 +265,7 @@ ul {
 
 /* Кнопки фильтров */
 .btn-filter {
+  padding: 0;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
