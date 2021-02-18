@@ -41,7 +41,7 @@ body {
 
 /* ====Контейнер==== */
 .container {
-  outline: 5px solid black;
+  /* outline: 2px solid black; */
   width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
