@@ -182,8 +182,7 @@ ul {
 }
 
 /* Section  */
-.section,
-.section-command {
+.section {
   padding-top: 94px;
 }
 
@@ -202,6 +201,7 @@ ul {
 .card-set {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
   padding-top: 50px;
   margin-left: -30px;
 }
@@ -219,6 +219,10 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+.text-group {
+  padding-bottom: 30px;
 }
 
 .section-title {
@@ -260,7 +264,8 @@ ul {
   margin-left: 30px;
 }
 
-.section-command {
+.section-command .container {
+  padding-top: 94px;
   background-color: #f5f4fa;
 }
 
